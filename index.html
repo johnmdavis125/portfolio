@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Davis Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script rel="index.js" defer></script>
+</head>
+<body>
+    <div class='container'>
+        
+        <div class='top d-flex justify-content-around'>
+            <div>
+                <img src="./Images/headshot.png" alt='photo of John Davis' id='proPic'>
+            </div>
+            <div id='top-text' class="d-flex flex-column justify-content-center">                
+                <h2>Hello</h2>
+                <h4>My name is John</h4>
+                <h6>and I'm a Developer</h6>
+            </div>
+        </div>
+        
+        <div class='middle'>
+            <h6>Here are some of my projects</h6>
+            <hr/>
+            <!-- carousel start -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                <div class="carousel-item active" data-interval="10000">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <div class="card" style="max-width: 48rem;">
+                        <div class='d-flex justify-content-center cards-img-backs'>
+                            <img src="./Images/chutes.png" class="card-img-top" style="max-width: 20rem;" alt="picture of chutes and ladders boardgame">
+                        </div>
+                        <div class="card-body overflow-auto" style="max-height: 300px;">
+                            <h5 class="card-title">Chutes & Ladders</h5>
+                            <p class="card-text">Chutes & Ladders is a classic boardgame I grew up with as a kid. Simply put, it's a race to the top!</p>
+                            <p class="card-text">There are 100 squares on the board and 2-4 players. The number of spaces the player advances each turn is determined by rolling a die once per turn. If the player lands at the bottom of a ladder, they immediately climb to the top. If the player lands at the top of a chute, they immediately slide to the bottom. The win state is reached when a player lands exactly on square 100, at which point the other player loses. The game will continue until this happens.</p>
+                            <p class="card-text">Built using HTML, CSS, JavaScript with jQuery</p>
+                            <p class="card-text">In the spirit of OOP, I used classes/objects with built-in methods to coordinate movement of plyrs.</p>
+                            <div class='my_links d-flex justify-content-center'>
+                                <a class="btn btn-primary" href="https://johnmdavis125-chutesandladders.vercel.app/">Play the Game!</a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="card" style="max-width: 48rem;">
+                        <div class='d-flex justify-content-center cards-img-backs'>
+                            <img src="./Images/bbwelcome.png" class="card-img-top" style="max-width: 30rem;" alt="picture of chutes and ladders boardgame">
+                        </div>
+                        <div class="card-body overflow-auto" style="max-height: 300px;">
+                            <h5 class="card-title">Band Builder</h5>
+                            <p class="card-text">Band Builder is a web application designed for an up-and-coming local band to customize and share their own website, to include an image gallery, upcoming tour dates, and of course their music</p>
+                            <p class="card-text">Technologies Used: 
+                            Node.js w/Express, Mongoose, JSX, MongoDB, MVC File Structure, 7 RESTful routes (Full CRUD), jQuery, Heroku App, Bootstrap</p>
+                            <div class='my_links d-flex justify-content-center'>
+                                <a class="btn btn-primary" href="https://jdbandbuilder.herokuapp.com/mainPics">Check it out!</a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="card" style="max-width: 48rem;">
+                        <div class='d-flex justify-content-center cards-img-backs'>
+                            <img src="./Images/artmuseum.png" class="card-img-top" style="max-width: 30rem;" alt="picture of chutes and ladders boardgame">
+                        </div>
+                        <div class="card-body overflow-auto" style="max-height: 300px;">
+                            <h5 class="card-title">Art Museum</h5>
+                            <p class="card-text">A website with seamless API integration throught the Harvard Art Museum Database. Through the API, we displayed thousands of pieces of content from cultures and societies throughout the world and its history. Users can now access art pieces and information they never before could have seen, through our app which allows them to collect their favorite art pieces. </p>
+                            <p class="card-text">Once selected, users can then leave notes and comments on their favorite art pieces for future reference and usage. This application utilizes all 7 RESTful routes, achieving full CRUD capability.</p>
+                            <p class="card-text">Technologies used: MERN Stack (MongoDB/Mongoose, Express.js, React.js, Node.js), MVC File Structure, 7 RESTful routes (Full CRUD), Heroku App, React-Bootstrap, Axios</p>
+                            <div class='my_links d-flex justify-content-center'>
+                                <a class="btn btn-primary" href="https://harvard-art-museum.herokuapp.com/">Visit the Museum!</a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <!-- carousel start -->
+        </div>
+        <div class='bottom'>
+            <h5>Contact Me</h5>
+            <ul class='d-flex justify-content-around'>
+                <li><a href="https://github.com/johnmdavis125">My github</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">johnmdavis125@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

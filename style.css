@@ -1,0 +1,81 @@
+/* * {
+    border: 1px solid gold;
+} */
+
+body {
+    background-color: rgba(2, 79, 147, 0.5);
+}
+
+#proPic {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(16, 16, 16, 0.8);
+    box-shadow: 2px 2px 5px 1px rgba(16, 16, 16, 0.6);
+}
+
+.container {
+    max-width: 800px;
+}
+
+.cards-img-backs {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.card {
+    max-height: 600px;
+}
+
+.top {
+    margin-top: 30px;
+    margin-bottom: 20px; 
+
+}
+
+#top-text {
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+hr {
+    max-width: 300px;  
+}
+
+h5 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+h6 {
+    color: rgb(20, 87, 145);
+    text-align: center;
+}
+
+.carousel-inner {
+    box-shadow: 2px 2px 5px 1px rgba(16, 16, 16, 0.6);
+}
+
+.my_links {
+    margin-bottom: 20px; 
+}
+
+.carousel-indicators {
+    background-color: rgba(14, 14, 14, 0.3);
+    border-radius: 3px;
+}
+
+ul {
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.bottom {
+    margin-top: 30px;
+}
