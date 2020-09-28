@@ -43,6 +43,8 @@ h2 {
 
 hr {
     max-width: 300px;  
+    margin-top: 20px; 
+    margin-bottom: 20px;
 }
 
 h5 {
@@ -69,7 +71,8 @@ h6 {
 }
 
 ul {
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 li {
